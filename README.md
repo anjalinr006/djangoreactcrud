@@ -20,18 +20,6 @@ First, let's create the python virtual environment to isolate our projects:
 python3 -m venv logrocket_env
 ```
 
-Then, activate it:
-
-```bash
-source logrocket_env/bin/activate
-```
-
-Just then you can clone the project from GitHub. So, `cd` into the venv and run:
-
-```bash
-git clone https://github.com/diogosouza/django-react-logrocket.git
-```
-
 Now, add the needed Djano dependencies:
 
 ```bash
@@ -43,9 +31,6 @@ Great, just need to run the project now. For this, `cd` into the django-react-lo
 ```bash
 python manage.py runserver
 ```
-
-That's it. Access the address http://localhost:8000/api/students/ and check for the API up and running.
-
 ### Running the React project
 
 First, `cd` the students-fe directory and run:
